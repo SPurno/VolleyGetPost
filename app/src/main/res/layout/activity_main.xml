@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/resultTextView"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:hint="RESULT"
+        android:textSize="15sp"
+        android:background="#F2F2F2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/getApiBtn"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="GET API"
+            android:layout_width="0dip"
+            android:layout_weight="50"
+            android:background="#3498DB"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/postApiBtn"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="POST API"
+            android:layout_width="0dip"
+            android:layout_weight="50"
+            android:background="#000000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
