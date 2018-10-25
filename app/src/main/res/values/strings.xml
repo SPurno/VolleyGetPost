@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Post</string>
     <!-- Strings related to Dashboard -->
-    <string name="url">http://example.com/api/somedata</string>
+    <string name="url">url">http://example.com/api/somedata</string>
 </resources>
