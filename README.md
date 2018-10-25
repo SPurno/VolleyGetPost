@@ -4,9 +4,9 @@ https://img.shields.io/travis/rust-lang/rust/master.svg)](https://spurno.github.
 Android Networking With Volley - Get &amp;Post data from web API
 
 ##Screenshots
-![Overview](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap1.png)
-![Get](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap2.png)
-![Post](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap3.png)
+![Overview](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap1.png = 400x600)
+![Get](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap2.png = 400x600)
+![Post](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap3.png = 400x600)
 
 ##License 
 
