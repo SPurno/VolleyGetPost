@@ -1,9 +1,5 @@
 <resources>
     <string name="app_name">Post</string>
-
-    <!-- Strings related to login -->
-
     <!-- Strings related to Dashboard -->
-    <string name="url">http://posspot.com/crm/api/crm_data/check_authentication</string>
-
+    <string name="url">http://example.com/api/somedata</string>
 </resources>

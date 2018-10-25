@@ -15,6 +15,17 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+/*
+* Copyright (c) 2018 Faruk Ahmed
+* License Under MIT
+* Not use for commercial perpose
+*    Permission is hereby granted, free of charge, to any person obtaining a copy
+*    of this software and associated documentation files (the "Software"), to deal
+*    in the Software without restriction, including without limitation the rights
+*    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+*    copies of the Software, and to permit persons to whom the Software is
+*    furnished to do so, subject to the following conditions:
+*/
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,14 +43,16 @@ public class MainActivity extends AppCompatActivity {
         getApiBtn = (Button) findViewById(R.id.getApiBtn);
         postApiBtn = (Button)findViewById(R.id.postApiBtn);
 
+        // RequestQueue For Handle Network Request
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
+        //Click Listner for GET JSONObject
         getApiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getData();
             }
         });
-
+        //Click Listner for POST JSONObject
         postApiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,18 +61,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // methods are here for post and get
+    // Post Request For JSONObject 
     public void postData() {
-        // ok code
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
         JSONObject object = new JSONObject();
         try {
-            object.put("user__Name","admin");
-            object.put("pas_sword","12345");
+            //input your API parameters
+            object.put("parameter","value");
+            object.put("parameter","value");
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
+        // Enter the correct url for your api service site
         String url = getResources().getString(R.string.url);
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, url, object,
                 new Response.Listener<JSONObject>() {
@@ -76,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         requestQueue.add(jsonObjectRequest);
     }
 
+    // Get Request For JSONObject 
     public void getData(){
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
         try {
