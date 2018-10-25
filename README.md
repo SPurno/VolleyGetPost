@@ -1,15 +1,15 @@
-#VolleyGetPost
+# VolleyGetPost
 [![build](
 https://img.shields.io/travis/rust-lang/rust/master.svg)](https://spurno.github.io)
 Android Networking With Volley - Get &amp;Post data from web API
 
-##Screenshots
+## Screenshots
 
 ![alt text](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap1.png)
 ![alt text](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap2.png)
 ![alt text](https://raw.githubusercontent.com/SPurno/VolleyGetPost/master/snapshots/snap3.png)
 
-##License 
+## License 
 
 MIT License
 
